@@ -43,16 +43,19 @@ main > section {
 
 main > section > h3 {
     margin: 1em 0;
+    font-size: 2.5em;
+}
+
+main > section > * {
+    margin: 1em 0;
 }
 
 .about {
     max-width: 80%;
 }
 
-.about > img {
-    border-radius: 50%;
-    height: 250px;
-    width: 250px;
+section > img {
+    max-width: 100%;
     margin: 1em 0;
 }
 
