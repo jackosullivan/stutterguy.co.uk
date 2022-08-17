@@ -15,6 +15,24 @@
     <body>
         <img src="06b81cd078efc9cd-profile_image-300x300.png" alt="" class="profile">
         <h1 class="name">StutterGuy</h1>
+
+        <h2 class="job-title">Livestream</h2>
+
+        <!-- Add a placeholder for the Twitch embed -->
+        <div id="twitch-embed"></div>
+
+        <!-- Load the Twitch embed JavaScript file -->
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+        <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+        <script type="text/javascript">
+        new Twitch.Embed("twitch-embed", {
+            width: 854,
+            height: 480,
+            channel: "stutterguy"
+        });
+        </script>
+
         <h2 class="job-title">Sims 4 CC Archive</h2>
         <p class="biography">A lot of this CC is many years old and may not work with recent Sims 4 updates.</p>
         <a href="baldi-gang-cc-for-sims-4/" class="link">Baldi Gang CC for Sims 4</a>
