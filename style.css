@@ -9,6 +9,7 @@
 :root {
     --white: white;
     --grey: rgb(57, 58, 58);
+    --twitch: rgb(92, 22, 197);
 }
 
 body {
@@ -53,6 +54,24 @@ body {
     font-size: 1.2em;
     font-weight: 600;
     letter-spacing: 0.03em;
+}
+
+.twitch-link {
+    display: block;
+    padding: 0.8em;
+    color: var(--white);
+    background-color: var(--twitch);
+    margin-bottom: 1em;
+    text-decoration: none;
+    border: 4px solid var(--twitch);
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+
+.twitch-link:hover {
+    background-color: var(--white);
+    color: var(--twitch);
 }
 
 .link:first-of-type {
